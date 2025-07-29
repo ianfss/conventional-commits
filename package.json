@@ -4,7 +4,12 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky",
-    "commit": "commit"
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   },
   "keywords": [],
   "author": "",
@@ -14,6 +19,7 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@commitlint/prompt-cli": "^19.8.1",
+    "cz-git": "^1.12.0",
     "husky": "^9.1.7"
   }
 }
