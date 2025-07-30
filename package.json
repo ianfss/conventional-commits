@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "husky",
     "commit": "git-cz",
-    "commit:ai": "czg"
+    "commit:ai": "czg ai"
   },
   "config": {
     "commitizen": {
